@@ -1,4 +1,4 @@
-package com.okadot
+package com.kishanpujari.okadot
 
 import android.app.Application
 import com.facebook.react.PackageList

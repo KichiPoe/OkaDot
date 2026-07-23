@@ -1,4 +1,4 @@
-package com.okadot
+package com.kishanpujari.okadot
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

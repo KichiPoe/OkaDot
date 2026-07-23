@@ -8,3 +8,12 @@
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
 # Add any project specific keep options here:
+
+# React Native
+-keep class com.facebook.react.** { *; }
+
+# Hermes
+-keep class com.facebook.hermes.** { *; }
+
+# Your application
+-keep class com.kishanpujari.okadot.** { *; }
