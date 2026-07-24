@@ -1,0 +1,422 @@
+{
+    "Themes": {
+        "basalt": {
+            "metadata": {
+                "id": "basalt_dark_001",
+                "name": "Basalt",
+                "description": "Premium dark theme inspired by volcanic stone with warm ivory accents and refined neutral surfaces.",
+                "version": "1.0.0",
+                "author": "",
+                "mode": "dark"
+            },
+            "colors": {
+                "palette": {
+                    "neutral": {
+                        "0": "#FFFFFF",
+                        "50": "#F8F7F5",
+                        "100": "#EAE8E4",
+                        "200": "#D4D1CB",
+                        "300": "#B6B1A8",
+                        "400": "#969087",
+                        "500": "#777168",
+                        "600": "#5E5952",
+                        "700": "#47433E",
+                        "800": "#302E2B",
+                        "900": "#1D1B19",
+                        "950": "#141311",
+                        "1000": "#000000"
+                    },
+                    "primary": {
+                        "50": "#FFFEFC",
+                        "100": "#FCF8F1",
+                        "200": "#F6EEDF",
+                        "300": "#EEE2CC",
+                        "400": "#E5D6BA",
+                        "500": "#D3BF9B",
+                        "600": "#B89F76",
+                        "700": "#967C55",
+                        "800": "#725C3E",
+                        "900": "#53412D"
+                    },
+                    "secondary": {
+                        "50": "#F5F3F0",
+                        "100": "#E8E4DE",
+                        "200": "#D5D0C8",
+                        "300": "#B8B1A5",
+                        "400": "#978F83",
+                        "500": "#7B7469",
+                        "600": "#625C54",
+                        "700": "#4C4742",
+                        "800": "#383430",
+                        "900": "#252321"
+                    },
+                    "accent": {
+                        "50": "#FFFDFC",
+                        "100": "#FAF5EA",
+                        "200": "#F3E8D2",
+                        "300": "#EBD9B9",
+                        "400": "#E3CFA8",
+                        "500": "#D4BB8B",
+                        "600": "#BFA06B",
+                        "700": "#987B4E",
+                        "800": "#705837",
+                        "900": "#4E3D27"
+                    }
+                },
+                "roles": {
+                    "background": {
+                        "primary": "#141311",
+                        "secondary": "#181614",
+                        "tertiary": "#1D1B19",
+                        "inverse": "#FAF9F6"
+                    },
+                    "surface": {
+                        "primary": "#1D1B19",
+                        "secondary": "#23211F",
+                        "tertiary": "#292724",
+                        "elevated": "#302E2B",
+                        "floating": "#373431"
+                    },
+                    "text": {
+                        "primary": "#F2F0EB",
+                        "secondary": "#D2CCC1",
+                        "tertiary": "#AAA297",
+                        "muted": "#817A70",
+                        "disabled": "#5C5954",
+                        "inverse": "#141311",
+                        "link": "#E3CFA8"
+                    },
+                    "border": {
+                        "subtle": "#252321",
+                        "default": "#302E2B",
+                        "strong": "#45413C",
+                        "focus": "#E3CFA8"
+                    }
+                },
+                "semantic": {
+                    "success": {
+                        "default": "#6AA97A",
+                        "foreground": "#E6F3E9",
+                        "background": "#172A1D",
+                        "border": "#477A55"
+                    },
+                    "warning": {
+                        "default": "#C69B55",
+                        "foreground": "#F9EFD9",
+                        "background": "#302411",
+                        "border": "#89652E"
+                    },
+                    "error": {
+                        "default": "#C46B68",
+                        "foreground": "#F9E7E6",
+                        "background": "#301A19",
+                        "border": "#914744"
+                    },
+                    "info": {
+                        "default": "#6B9BC7",
+                        "foreground": "#E7F0FA",
+                        "background": "#182431",
+                        "border": "#466E96"
+                    }
+                }
+            },
+            "effects": {
+                "shadow": {
+                    "xs": "0 1px 2px rgba(0,0,0,0.16)",
+                    "sm": "0 2px 5px rgba(0,0,0,0.20)",
+                    "md": "0 6px 14px rgba(0,0,0,0.26)",
+                    "lg": "0 12px 28px rgba(0,0,0,0.34)",
+                    "xl": "0 24px 48px rgba(0,0,0,0.44)"
+                },
+                "overlay": {
+                    "backdrop": "rgba(0,0,0,0.62)",
+                    "modal": "rgba(20,19,17,0.94)",
+                    "drawer": "rgba(22,21,19,0.97)"
+                },
+                "blur": {
+                    "xs": "2px",
+                    "sm": "4px",
+                    "md": "8px",
+                    "lg": "16px",
+                    "xl": "24px"
+                },
+                "opacity": {
+                    "disabled": 0.45,
+                    "hover": 0.92,
+                    "pressed": 0.82,
+                    "focus": 1
+                }
+            },
+            "typography": {
+                "fontFamily": {
+                    "sans": "Inter",
+                    "mono": "JetBrains Mono"
+                },
+                "fontWeight": {
+                    "light": 300,
+                    "regular": 400,
+                    "medium": 500,
+                    "semibold": 600,
+                    "bold": 700
+                }
+            },
+            "radius": {
+                "none": "0px",
+                "xs": "4px",
+                "sm": "6px",
+                "md": "8px",
+                "lg": "12px",
+                "xl": "16px",
+                "2xl": "24px",
+                "full": "9999px"
+            },
+            "spacing": {
+                "0": "0px",
+                "1": "4px",
+                "2": "8px",
+                "3": "12px",
+                "4": "16px",
+                "5": "20px",
+                "6": "24px",
+                "8": "32px",
+                "10": "40px",
+                "12": "48px",
+                "16": "64px",
+                "20": "80px",
+                "24": "96px"
+            },
+            "animation": {
+                "duration": {
+                    "fast": "120ms",
+                    "normal": "200ms",
+                    "slow": "320ms"
+                },
+                "easing": {
+                    "standard": "cubic-bezier(0.4,0,0.2,1)",
+                    "accelerate": "cubic-bezier(0.4,0,1,1)",
+                    "decelerate": "cubic-bezier(0,0.2,0.2,1)"
+                }
+            },
+            "zIndex": {
+                "base": 0,
+                "dropdown": 1000,
+                "sticky": 1100,
+                "fixed": 1200,
+                "drawer": 1300,
+                "modal": 1400,
+                "popover": 1500,
+                "tooltip": 1600,
+                "toast": 1700
+            }
+        },
+        "ivory": {
+            "metadata": {
+                "id": "ivory_light_001",
+                "name": "Ivory",
+                "description": "Premium light theme inspired by warm mineral surfaces with basalt-inspired neutrals and refined ivory tones.",
+                "version": "1.0.0",
+                "author": "",
+                "mode": "light"
+            },
+            "colors": {
+                "palette": {
+                    "neutral": {
+                        "0": "#000000",
+                        "50": "#141311",
+                        "100": "#1D1B19",
+                        "200": "#302E2B",
+                        "300": "#47433E",
+                        "400": "#5E5952",
+                        "500": "#777168",
+                        "600": "#969087",
+                        "700": "#B6B1A8",
+                        "800": "#D4D1CB",
+                        "900": "#EAE8E4",
+                        "950": "#F8F7F5",
+                        "1000": "#FFFFFF"
+                    },
+                    "primary": {
+                        "50": "#53412D",
+                        "100": "#725C3E",
+                        "200": "#967C55",
+                        "300": "#B89F76",
+                        "400": "#D3BF9B",
+                        "500": "#E3CFA8",
+                        "600": "#E5D6BA",
+                        "700": "#EEE2CC",
+                        "800": "#F6EEDF",
+                        "900": "#FCF8F1"
+                    },
+                    "secondary": {
+                        "50": "#252321",
+                        "100": "#383430",
+                        "200": "#4C4742",
+                        "300": "#625C54",
+                        "400": "#7B7469",
+                        "500": "#978F83",
+                        "600": "#B8B1A5",
+                        "700": "#D5D0C8",
+                        "800": "#E8E4DE",
+                        "900": "#F5F3F0"
+                    },
+                    "accent": {
+                        "50": "#4E3D27",
+                        "100": "#705837",
+                        "200": "#987B4E",
+                        "300": "#BFA06B",
+                        "400": "#D4BB8B",
+                        "500": "#E3CFA8",
+                        "600": "#EBD9B9",
+                        "700": "#F3E8D2",
+                        "800": "#FAF5EA",
+                        "900": "#FFFDFC"
+                    }
+                },
+                "roles": {
+                    "background": {
+                        "primary": "#FAF8F3",
+                        "secondary": "#F5F2EB",
+                        "tertiary": "#EEE9DF",
+                        "inverse": "#141311"
+                    },
+                    "surface": {
+                        "primary": "#FFFFFF",
+                        "secondary": "#FBF9F4",
+                        "tertiary": "#F3EFE7",
+                        "elevated": "#FFFFFF",
+                        "floating": "#FFFFFF"
+                    },
+                    "text": {
+                        "primary": "#181614",
+                        "secondary": "#3F3A34",
+                        "tertiary": "#6A6259",
+                        "muted": "#8B8277",
+                        "disabled": "#B4ADA3",
+                        "inverse": "#FAF8F3",
+                        "link": "#8A6A3F"
+                    },
+                    "border": {
+                        "subtle": "#EEE9DF",
+                        "default": "#DED8CC",
+                        "strong": "#C5BDB0",
+                        "focus": "#BFA06B"
+                    }
+                },
+                "semantic": {
+                    "success": {
+                        "default": "#4F8A5B",
+                        "foreground": "#1E3925",
+                        "background": "#E8F3EA",
+                        "border": "#9AC5A2"
+                    },
+                    "warning": {
+                        "default": "#A87832",
+                        "foreground": "#493214",
+                        "background": "#FAF0DD",
+                        "border": "#D5B277"
+                    },
+                    "error": {
+                        "default": "#B85450",
+                        "foreground": "#471C1A",
+                        "background": "#F8E8E7",
+                        "border": "#D99A97"
+                    },
+                    "info": {
+                        "default": "#4D7DA8",
+                        "foreground": "#18324A",
+                        "background": "#E8F1F8",
+                        "border": "#9BBBD8"
+                    }
+                }
+            },
+            "effects": {
+                "shadow": {
+                    "xs": "0 1px 2px rgba(30,25,18,0.06)",
+                    "sm": "0 2px 5px rgba(30,25,18,0.08)",
+                    "md": "0 6px 14px rgba(30,25,18,0.10)",
+                    "lg": "0 12px 28px rgba(30,25,18,0.14)",
+                    "xl": "0 24px 48px rgba(30,25,18,0.18)"
+                },
+                "overlay": {
+                    "backdrop": "rgba(20,18,15,0.38)",
+                    "modal": "rgba(250,248,243,0.94)",
+                    "drawer": "rgba(248,246,240,0.97)"
+                },
+                "blur": {
+                    "xs": "2px",
+                    "sm": "4px",
+                    "md": "8px",
+                    "lg": "16px",
+                    "xl": "24px"
+                },
+                "opacity": {
+                    "disabled": 0.45,
+                    "hover": 0.92,
+                    "pressed": 0.82,
+                    "focus": 1
+                }
+            },
+            "typography": {
+                "fontFamily": {
+                    "sans": "Inter",
+                    "mono": "JetBrains Mono"
+                },
+                "fontWeight": {
+                    "light": 300,
+                    "regular": 400,
+                    "medium": 500,
+                    "semibold": 600,
+                    "bold": 700
+                }
+            },
+            "radius": {
+                "none": "0px",
+                "xs": "4px",
+                "sm": "6px",
+                "md": "8px",
+                "lg": "12px",
+                "xl": "16px",
+                "2xl": "24px",
+                "full": "9999px"
+            },
+            "spacing": {
+                "0": "0px",
+                "1": "4px",
+                "2": "8px",
+                "3": "12px",
+                "4": "16px",
+                "5": "20px",
+                "6": "24px",
+                "8": "32px",
+                "10": "40px",
+                "12": "48px",
+                "16": "64px",
+                "20": "80px",
+                "24": "96px"
+            },
+            "animation": {
+                "duration": {
+                    "fast": "120ms",
+                    "normal": "200ms",
+                    "slow": "320ms"
+                },
+                "easing": {
+                    "standard": "cubic-bezier(0.4,0,0.2,1)",
+                    "accelerate": "cubic-bezier(0.4,0,1,1)",
+                    "decelerate": "cubic-bezier(0,0.2,0.2,1)"
+                }
+            },
+            "zIndex": {
+                "base": 0,
+                "dropdown": 1000,
+                "sticky": 1100,
+                "fixed": 1200,
+                "drawer": 1300,
+                "modal": 1400,
+                "popover": 1500,
+                "tooltip": 1600,
+                "toast": 1700
+            }
+        }
+    }
+}
